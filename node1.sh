@@ -1,0 +1,12 @@
+geth --datadir node1 \
+  --port 30306 \
+  --bootnodes enode://782dcfc0259614ba355049a3726877f411093ee9786b8dce64d5383585e6a053f55eb751290154824493a4ec6a56fae377da2c75832cd28bb42acbb80d507ddb@127.0.0.1:0?discport=30305 \
+  --networkid 123454321 \
+  --unlock 0xaF203756eE4cbb6f68E009A3A5715fB47e965bd5 \
+  --password node1/password.txt \
+  --authrpc.port 8551 \
+  --http \
+  --http.port 8555 \
+  --allow-insecure-unlock \
+  --mine \
+  --miner.etherbase 0xaF203756eE4cbb6f68E009A3A5715fB47e965bd5
