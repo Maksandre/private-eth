@@ -1,6 +1,25 @@
-## Prerequisites
+## TL;DR
 
-**Install Geth**: Download and install Geth, the command line interface for running an Ethereum node. https://geth.ethereum.org/docs/getting-started/installing-geth
+1. **Install Geth**: Download and install Geth: https://geth.ethereum.org/docs/getting-started/installing-geth
+
+2. **Init node 1:**
+
+```sh
+geth --datadir node1 init genesis.json
+```
+
+3. **Run bootnode:**
+
+```sh
+bootnode -nodekey boot.key -addr :30305
+```
+
+4. **Run node**
+```sh
+./node1.sh
+```
+
+5. **Connect to node**: http://127.0.0.1:8555
 
 
 ### Step-1: Create Accounts for Each Node
