@@ -22,6 +22,8 @@ bootnode -nodekey boot.key -addr :30305
 5. **Connect to node**: http://127.0.0.1:8555
 
 
+## Full Configuration
+
 ### Step-1: Create Accounts for Each Node
 
 You'll need separate folders for each node in your network to keep their data isolated.
